@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.spring.rock.mappers.UserInfoMapper">
+
+    <select id="getUserInfo" resultType="com.spring.rock.entity.UserInfoEntity">
+        SELECT `id` AS userId,account AS userName FROM zt_user
+        WHERE dept != '0' and deleted != '1' and account != 'admin' limit 1;
+    </select>
+
+</mapper>
