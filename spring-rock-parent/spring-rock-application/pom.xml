@@ -29,5 +29,15 @@
             <groupId>com.spring.rock</groupId>
             <artifactId>spring-rock-model</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>com.spring.rock</groupId>
+            <artifactId>spring-rock-provider</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.spring.rock</groupId>
+            <artifactId>spring-rock-consumer</artifactId>
+        </dependency>
     </dependencies>
 </project>
