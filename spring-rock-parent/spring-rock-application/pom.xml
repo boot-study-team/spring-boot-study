@@ -39,5 +39,10 @@
             <groupId>com.spring.rock</groupId>
             <artifactId>spring-rock-consumer</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>com.spring.rock</groupId>
+            <artifactId>spring-rock-feignclient</artifactId>
+        </dependency>
     </dependencies>
 </project>
