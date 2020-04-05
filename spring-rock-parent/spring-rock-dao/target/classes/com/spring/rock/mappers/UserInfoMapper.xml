@@ -4,8 +4,8 @@
 <mapper namespace="com.spring.rock.mappers.UserInfoMapper">
 
     <select id="getUserInfo" resultType="com.spring.rock.entity.UserInfoEntity">
-        SELECT `id` AS userId,account AS userName FROM zt_user
-        WHERE dept != '0' and deleted != '1' and account != 'admin' limit 1;
+        SELECT `id` AS userId,account AS userName FROM rk_user
+        limit 1;
     </select>
 
 </mapper>
